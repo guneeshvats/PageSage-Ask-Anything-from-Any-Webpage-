@@ -150,5 +150,5 @@ pagesage/
 
 ## ✉️ Contact
 Garima Tripathi
-📧 Email: garimatripathi0778@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/garimatripathi35/
+📧 Email: guneeshvats12@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/guneeshvats/
