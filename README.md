@@ -3,21 +3,21 @@
 > **Unlock insights from any webpage in seconds. No BS. Only facts from the page.**
 
 
-## 🚀 Live Demo
-<!-- 🔗 [Click here to try PageSage!](https://your-live-link.com)   -->
+## Live Demo
+<!-- [Click here to try PageSage!](https://your-live-link.com)   -->
 ⚠️ **Note**: First-time scrape may take ~10 seconds while the Sage does its magic!
 
 
-## ✨ Features
-- 🔗 **Scrape Multiple URLs** — Just paste, click, and scrape content from any webpage.
-- 🤖 **Ask Smart Questions** — Get answers strictly based on the scraped content (no hallucinations!).
-- ⚡ **Fast & Lightweight** — Built with React + TailwindCSS on the front, FastAPI + FAISS on the back.
-- 💾 **Embeddings & Vector Search** — Contextual answers powered by OpenAI + FAISS magic.
-- 🧹 **Clean UI** — Minimal, intuitive, responsive. No clutter.
+##  Features
+-  **Scrape Multiple URLs** — Just paste, click, and scrape content from any webpage.
+-  **Ask Smart Questions** — Get answers strictly based on the scraped content (no hallucinations!).
+-  **Fast & Lightweight** — Built with React + TailwindCSS on the front, FastAPI + FAISS on the back.
+-  **Embeddings & Vector Search** — Contextual answers powered by OpenAI + FAISS magic.
+-  **Clean UI** — Minimal, intuitive, responsive. No clutter.
 
 ---
 
-## 🎨 Tech Stack
+##  Tech Stack
 | **Frontend**     | React.js + TailwindCSS |
 |------------------|------------------------|
 | **Backend**      | Python FastAPI         |
@@ -29,17 +29,17 @@
 
 ---
 
-## 🏗️ How It Works
+##  How It Works
 1. **User submits URL(s)** from the web.
 2. **FastAPI backend scrapes** the content, cleans it, and chunks it.
 3. Chunks are **embedded using OpenAI embeddings** and stored in **FAISS**.
 4. User **asks a question** in the UI.
 5. Backend **embeds the question**, searches for similar chunks in FAISS, and passes them to **GPT-3.5-turbo**.
-6. 🦉 **Sage answers** based on the scraped content!
+6.  **Sage answers** based on the scraped content!
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 | Scrape Page | Ask Anything |
 |-------------|--------------|
@@ -49,7 +49,7 @@
 
 ## ⚙️ Installation & Running Locally
 
-### 📦 Backend Setup (FastAPI)
+###  Backend Setup (FastAPI)
 ```bash
 # 1. Clone the repo
 git clone https://github.com/yourusername/pagesage.git
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-### 🖼️ Frontend Setup (React + TailwindCSS)
+###  Frontend Setup (React + TailwindCSS)
 ```bash
 # 1. Navigate to frontend
 cd ../frontend
@@ -78,7 +78,7 @@ npm install
 npm run dev
 ```
 
-### ✅ Environment Variables
+###  Environment Variables
 
 Backend `.env` (Place in `/backend`)
 ```
@@ -92,7 +92,7 @@ VITE_BACKEND_URL=http://localhost:8000
 
 ---
 
-## 📝 API Endpoints
+##  API Endpoints
 
 | **Route**       | **Method** | **Description**        |
 |-----------------|------------|------------------------|
@@ -101,7 +101,7 @@ VITE_BACKEND_URL=http://localhost:8000
 
 ---
 
-## 🤖 AI Workflow
+##  AI Workflow
 1. **Scrape & Clean**: Grabs raw text (ignores navbars, ads, footers).
 2. **Chunk & Embed**: Text split into chunks. OpenAI embeddings generated.
 3. **Store in FAISS**: Vector index for fast similarity search.
@@ -114,7 +114,7 @@ VITE_BACKEND_URL=http://localhost:8000
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 ### Frontend
 1. Push frontend repo to GitHub.
 2. Connect to **Vercel** → auto-deploy (build command `npm run build`, output `dist`).
@@ -124,7 +124,7 @@ VITE_BACKEND_URL=http://localhost:8000
 2. Deploy on **Railway/Render**.
 3. Expose FastAPI server endpoint (`/scrape`, `/ask`).
 
-## 🎯 Project Structure
+##  Project Structure
 ```
 pagesage/
 ├── frontend/
@@ -140,7 +140,7 @@ pagesage/
 ```
 
 
-## 🙌 Acknowledgments
+##  Acknowledgments
 - OpenAI for their powerful APIs!
 - FAISS for blazing fast vector search.
 - React & TailwindCSS for smooth frontend experience.
@@ -149,6 +149,6 @@ pagesage/
 
 
 ## ✉️ Contact
-Garima Tripathi
+Guneesh Vats 
 📧 Email: guneeshvats12@gmail.com
 🔗 LinkedIn: https://www.linkedin.com/in/guneeshvats/
